@@ -98,8 +98,8 @@ void angel_yeas_ON(){
   boolean k=false;
     while(k==false){
       if(millis()-timer_segment>=1000){
-        leds_right_1[7].setRGB(0, 20, 255);
-        leds_left_1[7].setRGB(0, 20, 255);
+        leds_right_1[7].setRGB(0, 79, 255);
+        leds_left_1[7].setRGB(0, 79, 255);
         FastLED.show();
         k=true;
       }
